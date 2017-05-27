@@ -7,7 +7,7 @@ You need to create `.env` file and setup proper env variables and also create a 
 `$ bundle install`
 
 `$ ruby config/migrations.rb`
-*
+
 `$ ruby db/seeds.rb` To create some example data
 
 ## usage
