@@ -35,7 +35,7 @@ and saves it to a Postgres database, to be used later for reports and other thin
 # Considerations
 
 This solution is really powerful, there are a lot of companies using Kinesis that process terabytes of data
-each day without a problem.
+each day without a problem. If one shard isn't enough, just add more and plug more consumers to it.
 
 A good alternative to improve performance even more would be to use a non relational database such as MongoDB to store
 locations.
