@@ -1,0 +1,20 @@
+source 'https://rubygems.org'
+
+gem 'pg'
+gem 'dotenv'
+gem 'aws-sdk'
+gem 'activerecord'
+gem 'activesupport'
+gem 'activerecord-postgis-adapter'
+gem 'enumerate_it'
+
+group :development, :test do
+  gem 'pry-byebug'
+end
+
+group :test do
+  gem 'rspec'
+  gem 'fabrication'
+  gem 'database_cleaner'
+  gem 'faker'
+end

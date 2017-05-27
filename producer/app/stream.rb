@@ -2,7 +2,8 @@ module Trecker
   class Stream
     DEFAULT_SLEEP_TIME_IN_SECONDS = 1
 
-    def initialize
+    def initialize(data)
+      @data = data
       @client = Aws::Kinesis::Client.new(
         access_key_id: ENV.fetch('AWS_ACCESS_KEY_ID'),
         secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY')
@@ -19,9 +20,7 @@ module Trecker
 
 
     def run
-      while true do
-        data = Trecker::Data.get
-
+      @data.each do |data|
         response = put(data)
         log(response, data)
 
