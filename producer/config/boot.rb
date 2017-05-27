@@ -8,5 +8,5 @@ Bundler.require(:default, ENV['APP_ENV']) if defined?(Bundler)
 
 Dotenv.load('../.env')
 
-require_relative '../stream'
-require_relative '../data'
+require_relative '../app/stream'
+require_relative '../app/data'
