@@ -27,41 +27,41 @@ poly = factory.polygon(line_string)
 Field.find_or_create_by(name: 'Field 2', polygon: poly, company: company)
 
 
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 0, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 30, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 9, 0, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 9, 30, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 10, 30, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 11, 30, 0))
-#
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 32, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 55, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 12, 0, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 13, 0, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 14, 22, 0))
-#
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 00, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 30, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 44, 0))
-#
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 16, 0, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 17, 30, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 19, 0, 0))
-#
-#
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 0, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 30, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 9, 0, 0))
-#
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 9, 30, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 10, 30, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 11, 30, 0))
-#
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 32, 0))
-#Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 55, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 12, 0, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 13, 0, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 14, 22, 0))
-#
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 00, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 30, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 44, 0))
-#
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 16, 0, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 17, 30, 0))
-#Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 19, 0, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 0, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 30, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 9, 0, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 9, 30, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 10, 30, 0)) Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 11, 30, 0))
+
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 32, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 55, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 12, 0, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 13, 0, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 14, 22, 0))
+
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 00, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 30, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 44, 0))
+
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 16, 0, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 17, 30, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 19, 0, 0))
+
+
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 0, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 8, 30, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 9, 0, 0))
+
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 9, 30, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 10, 30, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 11, 30, 0))
+
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 32, 0))
+Location.create(driver: driver, company: company, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 11, 55, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 12, 0, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 13, 0, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Cultivating', timestamp: Time.new(2000, 10, 12, 14, 22, 0))
+
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 00, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 30, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Driving', timestamp: Time.new(2000, 10, 12, 15, 44, 0))
+
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 16, 0, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 17, 30, 0))
+Location.create(driver: driver_2, company: company_2, latitude: 30, longitude: 30, activity: 'Repairing', timestamp: Time.new(2000, 10, 12, 19, 0, 0))
