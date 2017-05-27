@@ -1,1 +1,6 @@
 .env
+application/.env
+application/.env.test
+consumer/.env
+consumer/.env.test
+producer/.env
