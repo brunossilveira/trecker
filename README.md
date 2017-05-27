@@ -25,7 +25,7 @@ a report that describes driver's daily activities, like the example:
 
 `$ ruby run.rb '2000-10-12' 1`
 
-![Report example](https://github.com/brunossilveira/trecker/example.png)
+![Report example](https://github.com/brunossilveira/trecker/blob/master/example.png)
 
 ## Consumer
 
