@@ -34,8 +34,12 @@ and saves it to a Postgres database, to be used later for reports and other thin
 
 # Considerations
 
+My focus here was to use Kinesis as a way of getting geolocation data. In a real world application, the fields would be gathered using
+an exposed API, from `application`.
 This solution is really powerful, there are a lot of companies using Kinesis that process terabytes of data
-each day without a problem. If one shard isn't enough, just add more and plug more consumers to it.
+each day without a problem. If one shard isn't enough, just add more and plug more consumers to it. This architecture also facilitates
+adding more validations/controls that uses the locations from devices, all one needs to do is to write another consumer app with the
+business logic and voila :smile:.
 
 A good alternative to improve performance even more would be to use a non relational database such as MongoDB to store
-locations.
+locations. We could also change Ruby to a more performatic language such as Java.
